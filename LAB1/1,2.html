@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Знакомство с HTML 2</title>
+    <style>
+      th,
+      td {
+        border: 3px solid rgb(38, 71, 60);
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body
+    style="
+      font-family: 'courier', sans-serif;
+      color: rgb(255, 255, 255);
+      background-image: url('images/1671458401_kalix-club-p-odnotonnie-serie-oboi-na-telefon-vkontakte-1.jpg');
+    "
+  >
+    <h1 style="text-align: center; margin-bottom: 2rem; color: rgb(46, 46, 46)">
+      Table I:
+    </h1>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <table style="align-items: center; width: 40%; border-collapse: collapse">
+        <thead style="background-color: rgb(38, 71, 60)">
+          <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Director</th>
+          </tr>
+        </thead>
+        <tbody style="background-color: rgba(0, 1, 82, 0.411)">
+          <tr>
+            <td>Barry Lyndon</td>
+            <td>1975</td>
+            <td>Stanley Kubrick</td>
+          </tr>
+          <tr>
+            <td>Paths of Glory</td>
+            <td>1957</td>
+            <td>Stanley Kubrick</td>
+          </tr>
+          <tr>
+            <td>Eyes Wide Shut</td>
+            <td>1999</td>
+            <td>Stanley Kubrick</td>
+          </tr>
+          <tr>
+            <td>Seven Samurai</td>
+            <td>1954</td>
+            <td>Akira Kurosawa</td>
+          </tr>
+          <tr>
+            <td>Rashomon</td>
+            <td>1950</td>
+            <td>Akira Kurosawa</td>
+          </tr>
+          <tr>
+            <td>Dersu Uzala</td>
+            <td>1975</td>
+            <td>Akira Kurosawa</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h1
+      style="
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        color: rgb(46, 46, 46);
+      "
+    >
+      Table II:
+    </h1>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <table
+        style="
+          align-items: center;
+          width: 40%;
+          border-style: solid;
+          border-radius: 70px;
+          border-collapse: collapse;
+        "
+      >
+        <thead style="background-color: rgb(38, 71, 60)">
+          <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Director</th>
+          </tr>
+        </thead>
+        <tbody style="background-color: rgba(0, 1, 82, 0.411)">
+          <tr>
+            <td>Barry Lyndon</td>
+            <td>1975</td>
+            <td rowspan="3" style="vertical-align: middle">Stanley Kubrick</td>
+          </tr>
+          <tr>
+            <td>Paths of Glory</td>
+            <td>1957</td>
+          </tr>
+          <tr>
+            <td>Eyes Wide Shut</td>
+            <td>1999</td>
+          </tr>
+          <tr>
+            <td>Seven Samurai</td>
+            <td>1954</td>
+            <td rowspan="3" style="vertical-align: middle">Akira Kurosawa</td>
+          </tr>
+          <tr>
+            <td>Rashomon</td>
+            <td>1950</td>
+          </tr>
+          <tr>
+            <td>Dersu Uzala</td>
+            <td>1975</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
